@@ -23,6 +23,7 @@ jobs:
       matrix:
         language:
         - python
+    timeout-minutes: 12000
 name: CodeQL
 'on':
   push:
